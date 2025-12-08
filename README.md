@@ -43,7 +43,8 @@ This MATLAB toolbox provides a set of utilities for **tensorial and functional s
 ## Files in this repository
 
 - **`FieldDiracFormalism - ToolBox.mltbx`** — MATLAB toolbox package containing the functions. Install it and call the functions directly from your code.  
-- **`guide.pdf`** — User guide describing the main functions, inputs/outputs, and usage tips.  
+- **`guide.pdf`** — User guide describing the main functions, inputs/outputs, and usage tips.
+- **`Example.mlx`** — Worked example showing how to use the toolbox to analyze noncommutative Maxwell electrodynamics with external sources, with step-by-step comments explaining the workflow and the functions used.
 
 ---
 
