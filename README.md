@@ -21,8 +21,8 @@ This MATLAB toolbox provides a set of utilities for **tensorial and functional s
 - `fieldDerivative` — Builds a symbolic *field-style* partial-derivative wrapper and applies basic differentiation rules (linearity, product rule, power rule) by parsing the expression as text. 
 - `solveFieldDerivative` — Post-processes the symbolic derivative wrappers produced by `fieldDerivative`, converting functional-derivative patterns into Kronecker deltas and Dirac deltas.
 - `FInt` — Evaluates distributional integrals involving Dirac deltas and their derivatives (e.g., terms like `A(y)*d_i(dirac(x-y))`), correcting cases where MATLAB’s native `int` does not handle derivatives of the Dirac delta as expected.
-- `PoissonBrackets` — Computes field Poisson brackets.
-- `DiracBrackets` — Computes field Dirac brackets.
+- `FPoissonBrackets` — Computes field Poisson brackets.
+- `FDiracBrackets` — Computes field Dirac brackets.
 ---
 
 ## Requirements
